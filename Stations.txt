@@ -1,0 +1,2 @@
+http://server10.digital-webstream.de:19230
+213.251.164.109:8030

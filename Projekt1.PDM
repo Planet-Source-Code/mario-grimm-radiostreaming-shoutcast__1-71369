@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=RadioStreaming
+
+
+[Package|RadioStreaming|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\VB\RadioStreaming\Paket
+
+[Package|RadioStreaming|Configure DAO ISAMs]
+Applicable=No
+
+[Package|RadioStreaming|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|RadioStreaming|Files Found]
+
+[Package|RadioStreaming|Files Released]
+
+[Package|RadioStreaming|Missing Dependency Information]
+C:\WINDOWS\system32\imagehlp.dll=
+C:\WINDOWS\system32\wininet.dll=
+
+[Package|RadioStreaming|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|RadioStreaming|Files Added]
+F:\VB\RadioStreaming\Katha\Stations.txt=
+
+[Package|RadioStreaming|Files Removed]
+
+[Package|RadioStreaming|Files In Project]
+F:\VB\RadioStreaming\Katha\RadioStreaming.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6DE.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\WINDOWS\system32\imagehlp.dll=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKDE.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCMCDE.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\VB\RadioStreaming\Katha\Stations.txt=Yes
+
+[Package|RadioStreaming|Configure Registry Files]
+Applicable=No
+
+[Package|RadioStreaming|Configure Remote Servers]
+Applicable=No
+
+[Package|RadioStreaming|Install Locations]
+F:\VB\RadioStreaming\Katha\RadioStreaming.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\WINDOWS\system32\imagehlp.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCDE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\VB\RadioStreaming\Katha\Stations.txt=$(AppPath)
+
+[Package|RadioStreaming|Configure Shared Files]
+Applicable=Yes
+F:\VB\RadioStreaming\Katha\RadioStreaming.exe=No
+F:\VB\RadioStreaming\Katha\Stations.txt=No
+
+[Package|RadioStreaming|Distribution]
+Type=single
+Size=
+Title=RadioStreaming
+
+[Package|RadioStreaming|IconGroups]
+Group0=RadioStreaming
+PrivateGroup0=Falsch
+Parent0=$(Programs)
+
+[Package|RadioStreaming|RadioStreaming]
+Icon1=RadioStreaming.exe
+Title1=RadioStreaming
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|RadioStreaming|Package]
+PackageFolder=F:\VB\RadioStreaming\Paket
+ProjectFolder=F:\VB\RadioStreaming
+ServerSideCab=
+File1=F:\VB\RadioStreaming\Paket\setup.exe
+File2=F:\VB\RadioStreaming\Paket\Setup.Lst
+File3=F:\VB\RadioStreaming\Paket\RadioStreaming.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
